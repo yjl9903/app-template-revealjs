@@ -1,8 +1,14 @@
 {
   "name": "@yjl9903/app-template-revealjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": "XLor",
+  "keywords": [
+    "csa-template",
+    "reveal",
+    "slides",
+    "presentation"
+  ],
   "files": [
     ".gitignore",
     ".prettierrc",
