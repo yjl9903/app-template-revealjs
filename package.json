@@ -1,6 +1,6 @@
 {
   "name": "@yjl9903/app-template-revealjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "author": "XLor",
   "keywords": [
@@ -18,11 +18,10 @@
     "src/**/*"
   ],
   "scripts": {
+    "start": "snowpack dev",
     "build": "snowpack build",
     "format": "prettier --write \"src/**/*.js\"",
-    "lint": "prettier --check \"src/**/*.js\"",
-    "start": "snowpack dev",
-    "test": "echo \"This template does not include a test runner by default.\" && exit 1"
+    "lint": "prettier --check \"src/**/*.js\""
   },
   "dependencies": {
     "reveal.js": "^4.1.0"

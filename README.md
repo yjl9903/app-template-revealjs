@@ -1,21 +1,32 @@
-# New Project
+# New Slide
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
+
+## Create New Slide
+
+```bash
+yarn create snowpack-app new-dir --template @yjl9903/app-template-revealjs --use-yarn
+# or
+npx create-snowpack-app new-dir --template @yjl9903/app-template-revealjs [--use-yarn | --use-pnpm | --no-install]
+```
 
 ## Available Scripts
 
 ### npm start
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
+Runs the slide in the development mode.
+
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
 The page will reload if you make edits.
+
 You will also see any lint errors in the console.
 
 ### npm run build
 
 Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
+
+Your slide is ready to be deployed!
 
 **For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.json` config file.
 
