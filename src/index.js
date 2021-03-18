@@ -1,11 +1,23 @@
-/**
- * This file is just a silly example to show everything working in the browser.
- * When you're ready to start on your site, clear the file. Happy hacking!
- **/
+import Reveal from 'reveal.js';
+import Markdown from 'reveal.js/plugin/markdown/markdown.esm.js';
+import Mathjax from 'reveal.js/plugin/math/math.esm.js';
 
-import confetti from 'canvas-confetti';
+import 'reveal.js/dist/reveal.css';
+import 'reveal.js/dist/theme/white.css';
 
-confetti.create(document.getElementById('canvas'), {
-  resize: true,
-  useWorker: true,
-})({ particleCount: 200, spread: 200 });
+const slide = new Reveal({
+  width: 1024,
+  height: 768,
+  slideNumber: 'c/t',
+  hash: true,
+  center: true,
+  plugins: [Markdown, Mathjax],
+  math: {
+    mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+    config: 'TeX-AMS_HTML-full',
+  },
+  transitionSpeed: 'fast',
+  mouseWheel: true,
+});
+
+slide.initialize();

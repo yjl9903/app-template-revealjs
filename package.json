@@ -1,4 +1,8 @@
 {
+  "name": "app-template-revealjs",
+  "version": "0.0.1",
+  "author": "XLor",
+  "license": "MIT",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
@@ -7,7 +11,7 @@
     "lint": "prettier --check \"src/**/*.js\""
   },
   "dependencies": {
-    "canvas-confetti": "^1.2.0"
+    "reveal.js": "^4.1.0"
   },
   "devDependencies": {
     "prettier": "^2.0.5",
